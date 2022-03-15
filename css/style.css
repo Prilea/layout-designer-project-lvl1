@@ -123,4 +123,32 @@ body {
     color: #fff;
     background-color: var(--heading-color_orange);
 }
-
+.videoblock {
+    padding-bottom: 484px;
+}
+.videoblock__heading {
+    text-align: center;
+    position: relative;
+}
+.heading-videoblock {
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 27px;
+}
+.videoblock__text {
+    margin-bottom: 30px;
+    line-height: 160%;
+    color: #212529;
+}
+.video {
+    position: absolute;
+    /* top: 40px; */
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+.div {
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+}
