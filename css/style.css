@@ -124,10 +124,12 @@ body {
     background-color: var(--heading-color_orange);
 }
 .videoblock {
+    background-color: #fff;
     padding-bottom: 484px;
 }
 .videoblock__heading {
     text-align: center;
+    padding-top: 100px;
     position: relative;
 }
 .heading-videoblock {
@@ -188,6 +190,7 @@ body {
     line-height: 70px;
     color: #42413C;
     margin-bottom: 40px;
+    line-height: 1;
 }
 .navlink-heading {
     font-family: 'Neucha';
@@ -205,4 +208,52 @@ body {
 }
 .navlink:hover >*  {
   color: #fff;
+}
+.ikea-section {
+    padding: 100px 0;
+    position: relative;
+}
+
+#ikea-effect {
+    column-count: 2;
+    column-gap: 30px;
+}
+.ikea-effect__information {
+    font-family: 'Neucha';
+    padding-left: 30px;
+}
+.information_name {
+    font-size: 24px;
+    line-height: 29px;
+    color: #908D8B;
+}
+.information_heading {
+    font-size: 60px;
+    line-height: 72px;
+    color: #2A2626;
+    margin-bottom: 30px;
+}
+.information_text {
+    font-size: 34px;
+    line-height: 40px;
+}
+.howAppear {
+    text-transform: uppercase;
+    line-height: 17px;
+    column-span: all;
+    margin: 100px 0 20px;
+    padding: 5px 0 5px 10px;
+}
+.ikea-effect_howAppear {
+    background-color: #B09A81;
+    color: #fff;
+}
+.ikea-effect_text {
+    break-inside: avoid;
+    font-family: 'Open Sans';
+    line-height: 26px;
+    color: #2A2626; 
+}
+.ikea-section_img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
