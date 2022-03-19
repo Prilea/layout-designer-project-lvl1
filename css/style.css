@@ -373,3 +373,88 @@ z-index: 1;
     line-height: 26px;
     color: #2A2626;
 }
+#footer {
+    padding-top: 100px;
+    background-color: #fff;
+}
+.subscription {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #42413C;
+}
+.subscription-heading {
+    font-family: 'Neucha';
+    font-size: 34px;
+    line-height: 41px;
+    color: #fff;
+    margin: 55px;
+    width: 50%;
+}
+.subscription-form {
+    margin: 55px;
+    width: 50%;
+}
+.form-name {
+    font-size: 18px;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+.email-enter {
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+}
+::placeholder {
+    font-size: 13px;
+    font-family: 'Open Sans';
+    line-height: 21px;
+    color:#757575;
+    opacity: .2;
+}
+.form-email {
+    display: flex;
+}
+.send-btn {
+    position: relative;
+   height: 50px;
+   width: 70px;
+   background-repeat: no-repeat;
+   background-color: var(--heading-color_orange);
+}
+.send-btn::before {
+    content: '';
+    background-image: url(../img/send.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.form-text {
+    font-size: 12px;
+    line-height: 19px;
+    color: #fff;
+}
+.contacts {
+    padding: 76px 0 111px 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    text-align: center;
+}
+.copyright {
+    margin-bottom: 2px;
+}
+.contacts p {
+     margin: 16px 0;   
+}
+.contacts_links {
+
+    color: #007DC1;
+}
