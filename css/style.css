@@ -349,3 +349,15 @@ z-index: 1;
     line-height: 26px;
     color: #2A2626; 
 }
+#hyperbolic-depreciation {
+    padding: 100px 0;
+    position: relative;
+}
+.hyperbolic-depreciation_howAppear {
+    background-color: #fff;
+    color: #B09A81;
+}
+.hyperbolic-depreciation_text--brown {
+    line-height: 26px;
+    color: #fff;
+}
