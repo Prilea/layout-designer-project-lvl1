@@ -361,3 +361,15 @@ z-index: 1;
     line-height: 26px;
     color: #fff;
 }
+#errors-in-planning {
+    position: relative;
+    padding: 100px 0;
+}
+.errors_howAppear {
+    background-color: #B09A81;
+    color: #fff;
+}
+.errors_text--white {
+    line-height: 26px;
+    color: #2A2626;
+}
