@@ -18,9 +18,9 @@
 a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
-img {
+/* img {
     width: 100%;
-}
+} */
 html,body{
 	height: 100%;
 	width: 100%;
@@ -97,7 +97,7 @@ body {
 .header-heading {
     line-height: 86px;
     font-size: 72px;
-    margin-bottom: 217px;
+    margin-bottom: 208px;
 }
 .header-inner {
     position: relative;
