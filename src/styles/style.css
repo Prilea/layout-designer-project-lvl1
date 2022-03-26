@@ -87,7 +87,7 @@ body {
 
 .heading {
     position: relative;
-    /* z-index: 5; */
+    z-index: 5;
     font-family: 'Neucha';
     color: var(--heading-color);
 }
