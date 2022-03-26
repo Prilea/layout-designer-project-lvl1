@@ -97,7 +97,7 @@ body {
 .header-heading {
     line-height: 86px;
     font-size: 72px;
-    margin-bottom: 220px;
+    margin-bottom: 217px;
 }
 .header-inner {
     position: relative;
@@ -106,18 +106,19 @@ body {
     position: absolute;
     height: 525px;
     width: auto;
-    top: -60px;
-    right: -321px;
+    top: -63px;
+    right: -323px;
 }
 .about {
     display: flex;
     justify-content: space-between;
 }
 .about-text-inner {
-    max-width: 50%;
+    width: 50%;
 }
 .about-text-inner:not(:last-child) {
     margin-right: 30px;
+    
 }
 .text-inner {
     line-height: 25px;
