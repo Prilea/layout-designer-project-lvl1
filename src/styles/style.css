@@ -87,7 +87,7 @@ body {
 
 .heading {
     position: relative;
-    z-index: 5;
+    /* z-index: 5; */
     font-family: 'Neucha';
     color: var(--heading-color);
 }
@@ -106,8 +106,8 @@ body {
     position: absolute;
     height: 525px;
     width: auto;
-    top: -63px;
-    right: -323px;
+    top: -45px;
+    right: -166px;
 }
 .about {
     display: flex;
