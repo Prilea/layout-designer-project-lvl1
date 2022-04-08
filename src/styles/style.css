@@ -393,17 +393,17 @@ body {
   line-height: 26px;
 }
 
+#premature-optimization .information-heading-brown {
+  margin-bottom: 30px;
+
+  color: #fff;
+}
+
 .information-heading-brown {
   margin-bottom: 30px;
 
   font-size: 60px;
   line-height: 72px;
-}
-
-#premature-optimization .information-heading-brown {
-  margin-bottom: 30px;
-
-  color: #fff;
 }
 
 .bg-image-brown {
