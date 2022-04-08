@@ -22,10 +22,6 @@ a:visited {
   text-decoration: none;
 }
 
-img {
-  vertical-align: top;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -49,6 +45,7 @@ aside {
 
 img {
   width: 100%;
+  vertical-align: top;
 }
 
 html,
@@ -397,17 +394,17 @@ body {
   line-height: 26px;
 }
 
-#premature-optimization .information-heading-brown {
-  margin-bottom: 30px;
-
-  color: #fff;
-}
-
 .information-heading-brown {
   margin-bottom: 30px;
 
   font-size: 60px;
   line-height: 72px;
+}
+
+#premature-optimization .information-heading-brown {
+  margin-bottom: 30px;
+
+  color: #fff;
 }
 
 .bg-image-brown {
