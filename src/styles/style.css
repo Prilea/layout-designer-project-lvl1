@@ -22,6 +22,10 @@ a:visited {
   text-decoration: none;
 }
 
+img {
+  vertical-align: top;
+}
+
 a:hover {
   text-decoration: none;
 }
